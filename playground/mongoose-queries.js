@@ -3,7 +3,7 @@ const { mongoose } = require('./../server/db/mongoose');
 const { Todo } = require('./../server/models/todo');
 const { User } = require('./../server/models/user');
 
-const id = '5b75dca6eb7969eec8519a77';
+const id = '5b75dca6eb7969eec8519a77 ';
 
 User.findById(id)
   .then(user => {
